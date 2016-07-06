@@ -17,7 +17,7 @@ ratio=ecn1_sent/total_sent
 
 This algorithm always tries to maintain the estimation error in the ECN reader as lower as possible. Each time a new update in the congestion level is made, the algorithm must be executed again. An example of usage for this script is: 
 
-python ecn_injector.py -s 193.147.53.172 -d 193.147.53.165 -q 45 
+python ecn_injector.py -s aaa.aaa.aaa.aaa -d bbb.bbb.bbb.bbb -q 45 
 
 where the options are: 
 
