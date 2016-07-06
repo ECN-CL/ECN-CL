@@ -19,7 +19,7 @@ def checksum(data):
     s = ~s & 0xffff
     return s
 
-def send(network, transport, payload="Payload for ECN usage in TUCAN3G", iface=None, retry=3, timeout=1):
+def send(network, transport, payload="Payload for ECN usage", iface=None, retry=3, timeout=1):
     if timeout<=0:
         # Avoid entering an infinite waiting loop
         timeout = 0.1
